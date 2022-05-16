@@ -76,6 +76,9 @@ app.get("/posts/:blogPost", function(req, res) {
 });
 
 
+app.get("/index.html", function(req, res) {
+  res.render("/");
+});
 
 
 app.listen(process.env.PORT || 3000, function() {
