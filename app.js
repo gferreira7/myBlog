@@ -77,7 +77,7 @@ app.get("/posts/:blogPost", function(req, res) {
 
 
 app.get("/index.html", function(req, res) {
-  res.render("/");
+  res.redirect("/");
 });
 
 
